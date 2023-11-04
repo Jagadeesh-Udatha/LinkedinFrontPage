@@ -1,0 +1,319 @@
+:root
+{
+  --backgroundcolor: #EEF3F8;
+  --white: #ffffff;
+  --bottomborder: #DBD3D3;
+  --hovercolor: #D2D1D1;
+  --boxshadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body {
+  background-color: var(--backgroundcolor);
+  display: flex;
+  margin-top:-5px;
+  
+}
+.main-body1
+{
+  padding: 90px 30px 0px 195px; 
+  position: relative;
+  display: flex;
+  gap:25px;
+  height: auto;
+}
+
+
+.middle-body
+{
+  width: 555px;
+  background-color: #EEF3F8;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.pic-middle
+{
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--boxshadow);
+}
+
+.pic-post
+{
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+
+}
+
+.prof-pic img 
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 15px;
+  object-fit:cover;
+  object-position: top;
+
+}
+
+.share-post  button {
+  width: 460px;
+  height: 42px;
+  margin: 3px 0px 0px 10px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: rgb(174, 173, 173);
+  position: relative;
+  cursor: pointer;
+}
+
+
+.share-post p{
+  position: absolute;
+  margin: -33px 0px 0px 25px;
+  font-size: 15px;
+}
+
+
+.pic-info
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35px;
+  margin-top: 5px;
+}
+
+
+
+.middle-body-data
+{
+  margin-top: 8px;
+  border-bottom-color: rgb(208, 206, 206);
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.post-info-div
+{
+  display: flex;
+  place-items: center;
+  margin-left: 28px;
+}
+
+.post-info-div img
+{
+  width: 20px;
+}
+
+.post-info-div p
+{
+  font-size: 13px;
+  margin: 24px 0px 0px 10px;
+  white-space: nowrap;
+  color:rgb(110, 109, 109);
+}
+
+.main-posts 
+{
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: var(--boxshadow);
+}
+
+.info-about-likes{
+  margin: 8px 10px 10px 10px;
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(211, 209, 209);
+  position: relative;
+}
+
+.info-about-likes  .someone img
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: 8px;
+}
+
+.info-about-likes p
+{
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.info-about-likes-sides 
+{
+  margin-left:490px;
+  margin-top: 7px;
+  display: flex;
+  position: absolute;
+  gap: 15px;
+  
+}
+
+
+.info-about-likes-sides img
+{
+  width: 12px;
+  height: 12px;
+}
+
+.posted-person-details
+{
+  display: flex;
+  gap: 5px;
+  margin: 8px 10px 10px 10px;
+  position: relative;
+}
+
+.follow-button
+{
+  position: absolute;
+  margin-top: 5px;
+}
+
+.follow{
+  font-size: 15px;
+  color: rgb(6, 88, 170);
+  margin-left: 455px;
+  background-color: var(--white);
+  border: none;
+}
+
+.follow:hover{
+  background-color:rgba(165, 218, 238, 0.821);
+}
+
+.posted-person-pic
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.posted-person-info {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.font , .posted-person-info span
+{
+  font-size:11px;
+  color: rgb(144, 144, 144);
+}
+
+.post-about
+{
+  margin: 8px 10px 10px 10px;
+}
+
+.post-about p
+{
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(29, 29, 29, 0.841);
+}
+
+.post-main-photo
+{
+  width: 555px;
+  position: relative;
+}
+
+
+.post-main-photo-info
+{
+  position: absolute;
+  margin-top: -55px;
+  background-color: #fee8d0c3;
+  width: 550px;
+  padding-left: 7px;
+}
+
+.post-main-photo-info a {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  margin-top:-45px;
+  margin-left:-13px;
+}
+
+.post-read
+{
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 5px;
+}
+.post-read  span{
+  display: block;
+  color: black;
+  font-size: 15px;
+}
+
+.likes-loves
+{
+  margin: 8px 10px 10px 10px;
+  display: flex;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--bottomborder);
+  height: 27px;
+}
+
+.liked-by
+{
+  margin-left: 7px;
+}
+
+.comments
+{
+  position: absolute;
+  margin-left: 32%;
+  height: 15px;
+}
+
+.edit-size-emojis
+{
+  width:16px;
+  height: 16px;
+}
+
+.edit-size-emojis1
+{
+  margin-left: -4px;
+}
+
+.likes-comments-scroll
+{
+  display: flex;
+  font-size: 15px;
+  gap: 55px;
+  margin: 7px 5px 10px 55px;
+}
+
+.likes-comments-scroll img
+{
+  width: 20px;
+  height: 20px;
+}
+
+.bar-info
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
